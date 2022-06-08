@@ -3,7 +3,7 @@ import CardStar from './CardStar'
 
 const PrintCards = ({arreglo}) => {
     return (
-        <div style={{ margin: '4em', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
+        <div style={{ margin: '4em', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
             {arreglo &&
                 arreglo.map(item => (
                     <CardStar key={item.id} {...item} />
