@@ -9,8 +9,8 @@ const AppRouter = () => {
     <div>
         <BrowserRouter>
             <Routes>
-                <Route path='/practicaSearch/' element={<SearchResult/>}/>
-                <Route path='*' element={<Navigate to={'/practicaSearch/'}/>}/>
+                <Route path='/Ejercicio-search/' element={<SearchResult/>}/>
+                <Route path='*' element={<Navigate to={'/Ejercicio-search/'}/>}/>
             </Routes>
         </BrowserRouter>
     </div>
