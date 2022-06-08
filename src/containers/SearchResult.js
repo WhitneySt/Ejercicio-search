@@ -53,7 +53,7 @@ const SearchResult = () => {
 
 
     return (
-        <div>
+        <div style={{ margin: '4em'}}>
             <AutoComplete
                 onClear={onClear}
                 allowClear
